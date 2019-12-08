@@ -48,7 +48,7 @@ public class Main
     private static void logicos()
     {
         // Variable declaration
-        Boolean witness, liar;
+        boolean witness, liar;
 
         // Variable initialization
         witness = true;
