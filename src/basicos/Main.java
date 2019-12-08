@@ -27,8 +27,24 @@ public class Main
         System.out.printf("myFloat's value: %.3f\nmyDouble's value: %.3f\n", myFloat, myDouble);
     }
 
+    /**
+     * String non-primitive data type
+     */
+    private static void cadenas()
+    {
+        // Variable declaration
+        String myString;
+
+        // Variable initialization
+        myString = "I am a String";
+
+        // Print variable
+        System.out.printf("Hello: %s.\n", myString);
+    }
+
     public static void main(String[] args)
     {
         numericos();
+        cadenas();
     }
 }
